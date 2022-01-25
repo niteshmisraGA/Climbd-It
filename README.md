@@ -28,3 +28,7 @@ Project 4 - Velvet Worms SEI
 ![wireframe](assets/parkslist.png)
 ![wireframe](assets/climblist.png)
 ![wireframe](assets/climbdeets.png)
+
+## Entity Relationship Diagram
+
+![wireframe](assets/P4.png)
