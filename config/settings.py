@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
   'localhost',
-  'https://climbd-it.herokuapp.com/',
+  'climbd-it.herokuapp.com',
 ]
 
 
