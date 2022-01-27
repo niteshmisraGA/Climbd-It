@@ -28,7 +28,7 @@ class Climb(models.Model):
     climbName = models.CharField(max_length=16)
     climbGrade = models.CharField(max_length=8)
     climbDescription = models.CharField(max_length= 128)
-    climbPic = models.ImageField(upload_to='images/')
+    climbPic = models.ImageField(upload_to='images/', null = True)
     location = models.ForeignKey(
         Location, on_delete=models.CASCADE, related_name='climbs')
     climber = models.ForeignKey(Climber, on_delete=models.CASCADE, related_name='climbers')
