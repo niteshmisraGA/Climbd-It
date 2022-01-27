@@ -27,7 +27,10 @@ SECRET_KEY = 'django-insecure-r*8q&d#)c4o(-9rp^&h4#^$bugkm+z5@c2mkkbye(=awxc#nb)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+  'localhost',
+  'https://climbd-it.herokuapp.com/',
+]
 
 
 # Application definition
