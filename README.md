@@ -8,6 +8,14 @@ https://github.com/niteshmisraGA/Climbd-It-frontend
 ## Backend Repo
 https://github.com/niteshmisraGA/Climbd-It-backend
 
+## Endpoints
+- /
+- /state
+- /state:id
+- /addstate
+- /state/:id/edit
+- /login/
+
 ## Description
 
 'Climbd It' will be a hub where climbers can log their outdoor adventures. Users will be able to post the name of the climb itself, and a picture of said climb. Climbs will be categorized by geographic location (State, and Park/Gym therein).
